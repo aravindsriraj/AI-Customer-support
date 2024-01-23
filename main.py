@@ -1,3 +1,4 @@
+# Import Necessary Libraries:
 import streamlit as st
 from langchain_community.document_transformers import DoctranPropertyExtractor
 from langchain.schema import Document
@@ -13,20 +14,19 @@ import time
 from trello import TrelloClient
 from dotenv import load_dotenv
 
+# Loading environment variables
 load_dotenv()
-
-
 
 # Create a Trello API instance
 client = TrelloClient(api_key=os.getenv('api'), token=os.getenv('token'),api_secret=os.getenv('secret'))
 
-
+# OpenAI API
 openai.api_key = os.getenv('API_KEY')
 os.environ['OPENAI_API_KEY'] = openai.api_key
 
 
 
-
+# This function will extract features from the user message and uses LangChain and OpenAI API to Generate Reply
 def interpret_and_evaluate(data):
         template = f"""
         You are an AI Customer Support that writes friendly emails back to customers. Adresse the user with his or her name {data['extracted_properties']['name']}. If no name was provided, 
@@ -139,17 +139,21 @@ properties = [
 
 st.title('Customer Support')
 user_input = st.text_area('Enter your message:', '')
+
+# Extracting Features from the user message
 documents = [Document(page_content=user_input)]
 property_extractor = DoctranPropertyExtractor(properties=properties,openai_api_model = 'gpt-3.5-turbo')
 extracted_document = property_extractor.transform_documents(
             documents, properties=properties
         )
+# Converting to JSON format
 result = json.dumps(extracted_document[0].metadata,indent=2)
 result_json = json.loads(result)
 
 reply = interpret_and_evaluate(result_json)
 
 
+# Streamlit app
 if st.button('Submit'):
     with st.spinner('Wait for it...'):
         time.sleep(5)
