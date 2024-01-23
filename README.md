@@ -30,6 +30,12 @@ Generative AI 😎
 - Automatically creates cards in a Trello list for issues requiring further action.
 - Prioritizes feedback based on type and sentiment.
 
+![image](https://github.com/aravindsriraj/AI-Customer-support/assets/60252521/be164bdd-db31-4423-a130-e5fbb43878ed)
+
+![image](https://github.com/aravindsriraj/AI-Customer-support/assets/60252521/013cd40d-0916-4d63-91d6-209c60c2bfad)
+
+
+
 ## How this idea will help to solve the problem 🤔:
 - **Automate extraction:** Manual analysis of large volumes of feedback is time-consuming and inefficient.
 - **AI-powered insights:** LangChain and OpenAI automate key information extraction, saving considerable time and effort for the product team.
