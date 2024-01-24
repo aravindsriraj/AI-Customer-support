@@ -4,7 +4,7 @@
 How sales, customer support, marketing and other go-to-market functions in the company surface signals to the product team about what is important to build in the product. (These may range from specific asks from existing customers to general ideas they are hearing in the industry).
 
 **My Solution:**
-Generative AI 😎
+Open AI😎
 
 ## Key Features:
 
@@ -33,7 +33,6 @@ Generative AI 😎
 ![image](https://github.com/aravindsriraj/AI-Customer-support/assets/60252521/be164bdd-db31-4423-a130-e5fbb43878ed)
 
 ![image](https://github.com/aravindsriraj/AI-Customer-support/assets/60252521/013cd40d-0916-4d63-91d6-209c60c2bfad)
-
 
 
 ## How this idea will help to solve the problem 🤔:
