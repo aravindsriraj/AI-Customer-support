@@ -6,6 +6,8 @@ How sales, customer support, marketing and other go-to-market functions in the c
 **My Solution:**
 Open AI😎
 
+Click here to watch the Demo [Demo Link](https://drive.google.com/file/d/1Z58cEECiEEYzCODLoT7GkEjydGVkCiY8/view?usp=sharing)
+
 ## Key Features:
 
 **Streamlined Feedback Collection Interface:**
@@ -41,4 +43,4 @@ Open AI😎
 - **Trello integration:** Automatic Trello card creation ensures actionable follow-up and task management for identified issues.
 - **Seamless information flow:** The ability to track feedback progression in Trello fosters transparency and collaboration between customer-facing teams and the product team.
 
-Click here to watch the Demo [Demo Link](https://drive.google.com/file/d/1Z58cEECiEEYzCODLoT7GkEjydGVkCiY8/view?usp=sharing)
+
